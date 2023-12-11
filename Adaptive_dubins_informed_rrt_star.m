@@ -112,7 +112,7 @@ path = [];
 node_rand = generate_node(start, goal, param);
 
 % visited
-if loc_list(node_rand, node_list, [1, 3])
+if loc_list(node_rand, node_list, [1:3])
     return
 end
 % generate new node
